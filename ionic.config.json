@@ -1,5 +1,7 @@
 {
   "name": "FreyaApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

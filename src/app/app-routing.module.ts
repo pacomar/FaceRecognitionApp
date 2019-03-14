@@ -14,7 +14,9 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'camera', loadChildren: './pages/camera/camera.module#CameraPageModule' },
+  { path: 'face-recognition', loadChildren: './pages/face-recognition/face-recognition.module#FaceRecognitionPageModule' }
 ];
 
 @NgModule({
